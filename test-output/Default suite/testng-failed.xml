@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testcases.GoogleMap_Test">
+        <methods>
+          <include name="move_mapPin_B"/>
+          <include name="move_mapPin_A"/>
+          <include name="move_mapPin_A_multi"/>
+          <include name="move_mapPin_C"/>
+          <include name="closeSession"/>
+          <include name="move_mapPin_B_twice"/>
+          <include name="move_mapPin_D"/>
+          <include name="setupBrowser"/>
+          <include name="appendReport"/>
+          <include name="move_mapPin_A_twice"/>
+        </methods>
+      </class> <!-- testcases.GoogleMap_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
