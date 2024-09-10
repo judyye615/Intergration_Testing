@@ -30,7 +30,7 @@ public class browserFactory {
        else if (browserName.equalsIgnoreCase("Chrome")) {
     	   
     	   try {
-			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
 	           ChromeOptions chromeOptions = new ChromeOptions();
 	           chromeOptions.addArguments("--headless");
 	           chromeOptions.addArguments("--no-sandbox");
