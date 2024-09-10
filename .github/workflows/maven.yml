@@ -19,33 +19,29 @@ jobs:
           cache: maven
 
       - name: Build with Maven
-        run: mvn -B package --file pom.xml 
+        run: ./mvnw verify
         continue-on-error: true
         
-      - name: Load test report history
-        uses: actions/checkout@v3
+      - name: Setup Allure History
+        uses: actions/checkout@v4.1.1
         if: always()
         continue-on-error: true
         with:
           ref: gh-pages
           path: gh-pages
-  
-      - name: Build test report
-        uses: simple-elf/allure-report-action@master
+
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@v1.8
         if: always()
-        id: allure-report
         with:
           allure_results: target/allure-results
-          gh_pages: gh-pages
-          allure_report: allure-report
           allure_history: allure-history
-  
-      - name: Publish test report
-        uses: peaceiris/actions-gh-pages@v3
+
+      - name: Publish Allure Report
         if: always()
+        uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
-
+          publish_dir: allure-his
 
