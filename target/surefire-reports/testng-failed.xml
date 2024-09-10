@@ -5,7 +5,6 @@
     <classes>
       <class name="testcases.GoogleMap_Test">
         <methods>
-          <include name="move_mapPin_B_twice"/>
           <include name="closeSession"/>
           <include name="setupBrowser"/>
           <include name="move_mapPin_A_twice"/>
