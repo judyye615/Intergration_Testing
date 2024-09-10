@@ -42,7 +42,7 @@ public class browserFactory {
 	           
 		} catch (Exception e) {
 			
-			System.setProperty("webdriver.chrome.driver", "./drivers/128/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "./drivers/128/chromedriver");
 	           ChromeOptions chromeOptions = new ChromeOptions();
 	           chromeOptions.addArguments("--headless");
 	           chromeOptions.addArguments("--no-sandbox");
