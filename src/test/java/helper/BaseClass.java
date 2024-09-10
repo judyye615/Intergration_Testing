@@ -2,16 +2,14 @@ package helper;
 
 import dataProviderFactory.DataProviderFactory;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
  
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
  
 import org.openqa.selenium.WebDriver;
-import org.testng.ITestResult;
+
  
 public class BaseClass {
  

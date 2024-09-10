@@ -2,38 +2,38 @@
 <testng-results retried="1" ignored="0" total="8" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-09T21:34:26 EDT" name="Surefire suite" finished-at="2024-09-09T21:34:53 EDT" duration-ms="26654">
+  <suite started-at="2024-09-09T23:31:58 EDT" name="Surefire suite" finished-at="2024-09-09T23:32:24 EDT" duration-ms="25517">
     <groups>
     </groups>
-    <test started-at="2024-09-09T21:34:26 EDT" name="Surefire test" finished-at="2024-09-09T21:34:53 EDT" duration-ms="26654">
+    <test started-at="2024-09-09T23:31:58 EDT" name="Surefire test" finished-at="2024-09-09T23:32:24 EDT" duration-ms="25517">
       <class name="testcases.GoogleMap_Test">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:26 EDT" name="setupBrowser" finished-at="2024-09-09T21:34:31 EDT" duration-ms="4345" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:31:58 EDT" name="setupBrowser" finished-at="2024-09-09T23:32:01 EDT" duration-ms="3264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="move_mapPin_A()[pri:1, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:31 EDT" name="move_mapPin_A" description="move the map pin A" finished-at="2024-09-09T21:34:33 EDT" duration-ms="2783" status="PASS">
+        <test-method signature="move_mapPin_A()[pri:1, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:01 EDT" name="move_mapPin_A" description="move the map pin A" finished-at="2024-09-09T23:32:04 EDT" duration-ms="2786" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_A -->
-        <test-method retried="true" signature="move_mapPin_A_twice()[pri:2, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:33 EDT" name="move_mapPin_A_twice" description="move the map pin A 2nd time" finished-at="2024-09-09T21:34:34 EDT" duration-ms="526" status="SKIP">
+        <test-method retried="true" signature="move_mapPin_A_twice()[pri:2, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:04 EDT" name="move_mapPin_A_twice" description="move the map pin A 2nd time" finished-at="2024-09-09T23:32:05 EDT" duration-ms="526" status="SKIP">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee03b6d5cd5e4063f6f94fb60e9f6c56, actions {actions=[org.openqa.selenium.interactions.Sequence@659a2455]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee03b6d5cd5e4063f6f94fb60e9f6c56]]>
+Command: [3ff78a89bdb6a726e9230819a5bbfe6c, actions {actions=[org.openqa.selenium.interactions.Sequence@267517e4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50700/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff78a89bdb6a726e9230819a5bbfe6c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee03b6d5cd5e4063f6f94fb60e9f6c56, actions {actions=[org.openqa.selenium.interactions.Sequence@659a2455]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee03b6d5cd5e4063f6f94fb60e9f6c56
+Command: [3ff78a89bdb6a726e9230819a5bbfe6c, actions {actions=[org.openqa.selenium.interactions.Sequence@267517e4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50700/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff78a89bdb6a726e9230819a5bbfe6c
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
 at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
@@ -119,9 +119,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee03b6d5cd5e4063f6f94fb60e9f6c56, findElement {using=xpath, value=//*[@usemap='#gmimap0']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee03b6d5cd5e4063f6f94fb60e9f6c56
+Command: [3ff78a89bdb6a726e9230819a5bbfe6c, findElement {using=xpath, value=//*[@usemap='#gmimap0']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50700/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff78a89bdb6a726e9230819a5bbfe6c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -152,25 +152,25 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_A_twice -->
-        <test-method signature="move_mapPin_A_twice()[pri:2, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:34 EDT" name="move_mapPin_A_twice" description="move the map pin A 2nd time" finished-at="2024-09-09T21:34:34 EDT" duration-ms="520" status="FAIL">
+        <test-method signature="move_mapPin_A_twice()[pri:2, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:05 EDT" name="move_mapPin_A_twice" description="move the map pin A 2nd time" finished-at="2024-09-09T23:32:05 EDT" duration-ms="518" status="FAIL">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee03b6d5cd5e4063f6f94fb60e9f6c56, actions {actions=[org.openqa.selenium.interactions.Sequence@67dba613]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee03b6d5cd5e4063f6f94fb60e9f6c56]]>
+Command: [3ff78a89bdb6a726e9230819a5bbfe6c, actions {actions=[org.openqa.selenium.interactions.Sequence@57540fd0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50700/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff78a89bdb6a726e9230819a5bbfe6c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee03b6d5cd5e4063f6f94fb60e9f6c56, actions {actions=[org.openqa.selenium.interactions.Sequence@67dba613]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee03b6d5cd5e4063f6f94fb60e9f6c56
+Command: [3ff78a89bdb6a726e9230819a5bbfe6c, actions {actions=[org.openqa.selenium.interactions.Sequence@57540fd0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50700/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff78a89bdb6a726e9230819a5bbfe6c
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
 at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
@@ -256,9 +256,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ee03b6d5cd5e4063f6f94fb60e9f6c56, findElement {using=xpath, value=//*[@usemap='#gmimap0']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54388}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54388/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ee03b6d5cd5e4063f6f94fb60e9f6c56
+Command: [3ff78a89bdb6a726e9230819a5bbfe6c, findElement {using=xpath, value=//*[@usemap='#gmimap0']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 128.0.6613.119 (6e439cfca4d..., userDataDir: C:\Users\judyy\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50700}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50700/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff78a89bdb6a726e9230819a5bbfe6c
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -289,27 +289,27 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_A_twice -->
-        <test-method signature="move_mapPin_A_multi()[pri:3, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:34 EDT" name="move_mapPin_A_multi" description="move the map pin A multiple times" finished-at="2024-09-09T21:34:42 EDT" duration-ms="7779" status="PASS">
+        <test-method signature="move_mapPin_A_multi()[pri:3, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:05 EDT" name="move_mapPin_A_multi" description="move the map pin A multiple times" finished-at="2024-09-09T23:32:13 EDT" duration-ms="7733" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_A_multi -->
-        <test-method signature="move_mapPin_B()[pri:4, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:42 EDT" name="move_mapPin_B" description="move the map pin B" finished-at="2024-09-09T21:34:44 EDT" duration-ms="2029" status="PASS">
+        <test-method signature="move_mapPin_B()[pri:4, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:13 EDT" name="move_mapPin_B" description="move the map pin B" finished-at="2024-09-09T23:32:15 EDT" duration-ms="2036" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_B -->
-        <test-method signature="move_mapPin_B_twice()[pri:5, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:44 EDT" name="move_mapPin_B_twice" description="move the map pin B" finished-at="2024-09-09T21:34:47 EDT" duration-ms="2643" status="PASS">
+        <test-method signature="move_mapPin_B_twice()[pri:5, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:15 EDT" name="move_mapPin_B_twice" description="move the map pin B" finished-at="2024-09-09T23:32:18 EDT" duration-ms="2601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_B_twice -->
-        <test-method signature="move_mapPin_C()[pri:6, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:47 EDT" name="move_mapPin_C" description="move the map pin C" finished-at="2024-09-09T21:34:50 EDT" duration-ms="2954" status="PASS">
+        <test-method signature="move_mapPin_C()[pri:6, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:18 EDT" name="move_mapPin_C" description="move the map pin C" finished-at="2024-09-09T23:32:21 EDT" duration-ms="2969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_C -->
-        <test-method signature="move_mapPin_D()[pri:7, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:50 EDT" name="move_mapPin_D" description="move the map pin D" finished-at="2024-09-09T21:34:53 EDT" duration-ms="2966" status="PASS">
+        <test-method signature="move_mapPin_D()[pri:7, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:21 EDT" name="move_mapPin_D" description="move the map pin D" finished-at="2024-09-09T23:32:24 EDT" duration-ms="2986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- move_mapPin_D -->
-        <test-method is-config="true" signature="closeSession()[pri:0, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T21:34:53 EDT" name="closeSession" finished-at="2024-09-09T21:34:53 EDT" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:testcases.GoogleMap_Test@1ed6388a]" started-at="2024-09-09T23:32:24 EDT" name="closeSession" finished-at="2024-09-09T23:32:24 EDT" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
